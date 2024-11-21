@@ -7,7 +7,7 @@ app = FastAPI()
 
 @app.get("/GPT")
 async def training():
-    completion = OpenAI.ChatCompletion.create(
+    completion = openai.ChatCompletion.create(
         model="gpt-4o-mini",
         messages=[
             {"role": "system", "content": "You are a helpful assistant."},

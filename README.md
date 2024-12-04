@@ -1,1 +1,1 @@
-# yama1
+# OpenAI APIの使い方を学ぶ
